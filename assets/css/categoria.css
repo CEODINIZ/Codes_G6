@@ -1,0 +1,103 @@
+/* categoria.html */
+
+.categoria-title {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  flex-direction:row;
+  width: 100%;
+  height: 42.5rem;
+  
+}
+
+.categoria-title2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  width: 100%;
+  
+
+}
+
+.cat-title-image {
+  width: 40rem;
+  height: 25rem;
+  padding: 1rem;
+
+
+}
+.cat-para {
+  display: flex;
+  justify-content: center;
+  font-size: 3.2rem;
+  font-weight: bold;
+  font-family: "Lora", serif;
+  color: #bf0436;
+
+
+}
+.cat-title-image-text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 20rem;
+  height: 20rem;
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+  color: #f2a88d;
+  padding: 0.5rem;
+
+}
+
+
+.project-menu {
+  display: flex;
+  padding: 1rem;
+  color: #f2a88d;
+
+
+
+
+
+
+}
+
+.project-menu-item {
+  width: 25rem;
+  height: 4.375rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+
+
+}
+
+@media (max-width: 68rem) {
+  .categoria-title {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .body {
+    width: 42rem;
+  }
+  .project-menu {
+    padding-top: 20rem;
+    padding-right: 10rem;
+  }
+  .main {
+    height: 70rem;
+  }
+  .menu-figure {
+    padding-left: 18rem;
+  }
+  .menu-title1 {
+    font-weight: bold;
+    text-align: center;
+    flex-grow:1;
+    display: block;
+    padding-left: 15rem;
+}
